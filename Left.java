@@ -10,13 +10,12 @@ package com.Package;
 
 
 public class Left {
-
-    public static void main(String[] args) {
+    void Apple() {
 
         int a, b, s;  // a row, b space
 
-        for (a = 0; a <5; a++) {
-            for (b = 1; b <=5-a; b++) {
+        for (a = 0; a < 5; a++) {
+            for (b = 1; b <= 5 - a; b++) {
                 System.out.print(" ");
             }
             for (s = 0; s <= a; s++) {
@@ -25,6 +24,12 @@ public class Left {
             System.out.println();
 
         }
+    }
+
+    public static void main(String[] args) {
+        Left blank = new Left();
+        blank.Apple();
+
     }
 }
 
