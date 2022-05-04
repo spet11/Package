@@ -12,7 +12,7 @@ public class Pattern {
         int a,b;
         for (a =0; a <=5; a++) // r-line
         {
-           for(b = 0; b<=a;b++){ //c
+           for(b = 0; b<=a;b++){ //s
                 System.out.print("*");
 
             }
